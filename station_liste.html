@@ -5,7 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Liste des stations | Essence moins cher</title>
         <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
     <body>
@@ -19,52 +22,9 @@
 
         <header>
             <div class="container mt-5">
-                <div class="row d-flex justify-content-center">
-                    <!-- First Card -->
-                    <div class="col-md-5">
-                        <div class="card">
-                            <div
-                                class="card-header text-center card-header-custom"
-                            >
-                                Station la moins chère (SP98)
-                            </div>
-                            <div class="card-body text-center">
-                                <h5 class="card-title">CENTRE E. LECLERC</h5>
-                                <p>
-                                    <i class="fas fa-gas-pump"></i> Prix :
-                                    1.783€/L
-                                </p>
-                                <button class="bouton_chercher_stations">
-                                    <a href="station.html">Voir la station</a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Second Card -->
-                    <div class="col-md-5">
-                        <div class="card">
-                            <div
-                                class="card-header text-center card-header-custom"
-                            >
-                                Station la moins chère (Gazole)
-                            </div>
-                            <div class="card-body text-center">
-                                <h5 class="card-title">CENTRE E. LECLERC</h5>
-                                <p>
-                                    <i class="fas fa-gas-pump"></i> Prix :
-                                    1.575€/L
-                                </p>
-                                <button class="bouton_chercher_stations">
-                                    Voir la station
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
                 <!-- Info text -->
                 <!-- Price indicator -->
+                <h1>Liste des stations Casino en France</h1>
                 <div class="price-indicator">
                     <span class="dot"></span>
                     <span
@@ -78,14 +38,13 @@
         <main>
             <div class="container mt-5">
                 <!-- First Station -->
-                <h1>Liste des stations essence à Bourg en Bresse</h1>
                 <div
                     class="station-card d-flex justify-content-between align-items-center"
                 >
                     <div class="d-flex align-items-center">
                         <img
-                            src="carrefour-logo.png"
-                            alt="Carrefour logo"
+                            src="assets/img/CASINO.jpg"
+                            alt="casino logo"
                             class="station-logo"
                         />
                         <div
@@ -95,7 +54,7 @@
                                 align-items: start;
                             "
                         >
-                            <h5>Carrefour BOURG-EN-BRESSE</h5>
+                            <h5>Casino BOURG-EN-BRESSE</h5>
                             <p>Bd Charles de Gaulle, BOURG-EN-BRESSE</p>
                             <span
                                 style="
@@ -145,8 +104,8 @@
                 >
                     <div class="d-flex align-items-center">
                         <img
-                            src="leclerc-logo.png"
-                            alt="Leclerc logo"
+                            src="assets/img/CASINO.jpg"
+                            alt="casino logo"
                             class="station-logo"
                         />
                         <div
@@ -156,7 +115,7 @@
                                 align-items: start;
                             "
                         >
-                            <h5>Leclerc BOURG-EN-BRESSE</h5>
+                            <h5>Casino MARSEILLE</h5>
                             <p>Avenue Francois Pignier, BOURG-EN-BRESSE</p>
                             <span
                                 style="
@@ -206,8 +165,8 @@
                 >
                     <div class="d-flex align-items-center">
                         <img
-                            src="station-service-logo.png"
-                            alt="Station service logo"
+                            src="assets/img/CASINO.jpg"
+                            alt="casino logo"
                             class="station-logo"
                         />
                         <div
@@ -217,7 +176,7 @@
                                 align-items: start;
                             "
                         >
-                            <h5>Station Service BOURG-EN-BRESSE</h5>
+                            <h5>Casino LYON</h5>
                             <p>Boulevard Charles de Gaulle, BOURG-EN-BRESSE</p>
                             <span
                                 style="
@@ -260,62 +219,6 @@
                     <div>
                         <button class="bouton_chercher_stations">➔</button>
                     </div>
-                </div>
-            </div>
-
-            <div class="mt-5" style="display: flex; flex-direction: column; margin-left: 50px; margin-right: 50px;">
-                <button class="bouton_chercher_stations text-start" data-bs-toggle="collapse" href="#collapseParagraph" role="button" aria-expanded="false" aria-controls="collapseParagraph" style="max-width: 100%; display: flex; align-items: center; justify-content: space-between;">
-                    Quelles innovations technologiques sont intégrées dans les stations-service à BOURG-EN-BRESSE ?
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-                        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-                      </svg>
-                </button>
-                <div class="collapse mt-3" id="collapseParagraph">
-                    <p class="text-start">
-                            Les innovations technologiques dans les stations-service peuvent inclure des systèmes de gestion avancée de l’énergie, des applications pour améliorer l'expérience client, et des technologies de paiement à la pointe. 
-                    </p>                        
-                </div>
-            </div>
-
-            <div class="mt-5" style="margin-left: 50px; margin-right: 50px; display: flex; flex-direction: column;">
-                <button class="bouton_chercher_stations text-start" data-bs-toggle="collapse" href="#collapseParagraph2" role="button" aria-expanded="false" aria-controls="collapseParagraph2" style="max-width: 100%; display: flex; align-items: center; justify-content: space-between;">
-                    Quelle est la station de service la moins chère pour le Gazole à BOURG-EN-BRESSE ?
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-                        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-                      </svg>
-                </button>
-                <div class="collapse mt-3" id="collapseParagraph2">
-                    <p class="text-start">
-                        La station de service la moins chère pour le Gazole est S.A. SODIPLAN avec un prix de 1.503€/L à BOURG-EN-BRESSE.
-                    </p>                        
-                </div>
-            </div>
-
-            <div class="mt-5" style="margin-left: 50px; margin-right: 50px; display: flex; flex-direction: column;">
-                <button class="bouton_chercher_stations text-start" data-bs-toggle="collapse" href="#collapseParagraph3" role="button" aria-expanded="false" aria-controls="collapseParagraph3" style="max-width: 100%; display: flex; align-items: center; justify-content: space-between;">
-                    Quelles sont les normes de sécurité habituelles dans les stations-service à BOURG-EN-BRESSE ?
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-                        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-                      </svg>
-                </button>
-                <div class="collapse mt-3" id="collapseParagraph3">
-                    <p class="text-start">
-                        Les stations-service doivent suivre des normes strictes en matière de sécurité, incluant le stockage sécurisé du carburant, des protocoles d'urgence clairs, et des équipements de sécurité pour prévenir les incendies et les fuites. 
-                    </p>                        
-                </div>
-            </div>
-    
-            <div class="mt-5" style="margin-left: 50px; margin-right: 50px; display: flex; flex-direction: column;">
-                <button class="bouton_chercher_stations text-start" data-bs-toggle="collapse" href="#collapseParagraph4" role="button" aria-expanded="false" aria-controls="collapseParagraph4" style="max-width: 100%; display: flex; align-items: center; justify-content: space-between;">
-                    Quel impact les stations-service ont-elles sur l'économie locale à BOURG-EN-BRESSE ? 
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-                        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-                      </svg>
-                </button>
-                <div class="collapse mt-3" id="collapseParagraph4">
-                    <p class="text-start">
-                        Les stations-service contribuent à l'économie locale en fournissant des emplois, en augmentant le trafic commercial dans la région, et en offrant des services essentiels aux résidents et voyageurs.
-                    </p>                        
                 </div>
             </div>
         </main>
@@ -372,7 +275,6 @@
         </footer>
 
         <!-- Bootstrap JS and FontAwesome -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
